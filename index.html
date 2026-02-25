@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Raza Mulki Firdaus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-diamond">◆</span>
+      <span class="logo-text">Razaaa.</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link" data-section="hero">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About Me</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#penugasan" class="nav-link" data-section="penugasan">Penugasan</a></li>
+      <li><a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">◆</div>
+      <h1 class="hero-title">Halo<br /><em>Semuanya</em></h1>
+      <p class="hero-sub">Ini adalah portfolio pribadi saya</p>
+      <a href="#about" class="btn-hero">Lihat Profil</a>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <span class="scroll-icon">↓</span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="title-divider"></div>
+        <p class="section-desc">
+          Perkenalkan, saya Raza Mulki Firdaus, seorang mahasiswa yang menyukai dunia teknologi. Saya selalu berusaha
+          untuk mengembangkan diri dan menjadi sebaik-baiknya manusia yaitu yang bisa bermanfaat bagi orang lain.
+          Melalui portofolio ini, saya ingin memperkenalkan diri dan berbagi cerita tentang pengalaman saya.
+        </p>
+      </div>
+
+      <div class="about-cards">
+        <div class="about-card" data-delay="0">
+          <div class="about-icon">⬡</div>
+          <h3>Responsive</h3>
+          <p>Setiap karya yang saya buat selalu mempertimbangkan tampilan di berbagai perangkat.</p>
+        </div>
+        <div class="about-card" data-delay="150">
+          <div class="about-icon">✦</div>
+          <h3>Minimalist</h3>
+          <p>Saya percaya bahwa kesederhanaan adalah bentuk kecanggihan yang sesungguhnya.</p>
+        </div>
+        <div class="about-card" data-delay="300">
+          <div class="about-icon">↓</div>
+          <h3>Open Source</h3>
+          <p>Saya aktif berkontribusi dan belajar dari komunitas open source.</p>
+        </div>
+      </div>
+
+      <div class="profile-detail">
+        <div class="profile-img-wrap">
+          <img src="PropilRaza.jpeg" alt="Foto Saya" style="width:100%; height:100%; object-fit:cover;" />
+        </div>
+        <div class="profile-bio">
+          <h3 class="bio-name">Raza Mulki Firdaus</h3>
+          <p class="bio-role">D4 - Teknik Informatika — Politeknik Negeri Bandung</p>
+          <p class="bio-text">
+            Halo! Saya adalah mahasiswa Jurusan Teknik Komputer dan Informatika yang memiliki ketertarikan kuat di
+            bidang pengembangan web dan desain digital. Dengan kombinasi antara kemampuan teknis dan kreativitas, saya
+            berusaha menciptakan solusi yang tidak hanya fungsional tetapi juga estetik. Saya terus belajar dan
+            berkembang untuk menjadi seorang profesional yang kompeten.
+          </p>
+          <div class="bio-meta">
+            <div class="bio-meta-item">
+              <span class="meta-label">NIM</span>
+              <span class="meta-val">251524120</span>
+            </div>
+            <div class="bio-meta-item">
+              <span class="meta-label">Angkatan</span>
+              <span class="meta-val">2025</span>
+            </div>
+            <div class="bio-meta-item">
+              <span class="meta-label">Asal</span>
+              <span class="meta-val">Kota Bandung, Jawa Barat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills &amp; Minat</h2>
+        <div class="title-divider"></div>
+        <p class="section-desc">Kemampuan teknis dan area minat yang saya kembangkan.</p>
+      </div>
+
+      <div class="skills-wrap">
+        <div class="skill-col">
+          <h4 class="skill-col-title">Technical Skills</h4>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML / CSS</span>
+                <span class="skill-pct">40%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="40"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-pct">20%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="20"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <span class="skill-pct">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="50"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">UI/UX Design</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">SQL / Database</span>
+                <span class="skill-pct">10%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="10"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-col">
+          <h4 class="skill-col-title">Soft Skills</h4>
+          <div class="tag-cloud">
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Teamwork</span>
+            <span class="tag">Communication</span>
+            <span class="tag">Critical Thinking</span>
+            <span class="tag">Time Management</span>
+          </div>
+          <h4 class="skill-col-title" style="margin-top:2.5rem">Area Minat</h4>
+          <div class="tag-cloud">
+            <span class="tag accent">Web Development</span>
+            <span class="tag accent">Data Science</span>
+            <span class="tag accent">Digital Design</span>
+            <span class="tag accent">Competitive Programming</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PENUGASAN ===== -->
+  <section class="section penugasan-section" id="penugasan">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Penugasan</h2>
+        <div class="title-divider"></div>
+        <p class="section-desc">Kumpulan tugas yang telah dikerjakan selama perkuliahan.</p>
+      </div>
+
+      <div class="penugasan-grid">
+        <div class="penugasan-card">
+          <div class="penugasan-num">02</div>
+          <div class="penugasan-body">
+            <h3>Penugasan 2</h3>
+            <p class="penugasan-sub">Term of Refference</p>
+            <p>Tugas membuat terms of refference acara LKMM TH .</p>
+            <div class="penugasan-tags">
+              <span class="tag small">ToR</span>
+              <span class="tag small">Administrasi</span>
+            </div>
+            <a href="https://drive.google.com/file/d/1Fe6ys8AOGQOhvZ0thtpvG-uqdBFNx7P5/view?usp=sharing"
+              class="btn-outline small" target="_blank">Lihat Detail →</a>
+          </div>
+        </div>
+
+        <div class="penugasan-card">
+          <div class="penugasan-num">03</div>
+          <div class="penugasan-body">
+            <h3>Penugasan 3</h3>
+            <p class="penugasan-sub">Poster</p>
+            <p>Deskripsi singkat mengenai penugasan ini. Jelaskan apa yang dikerjakan, tools yang digunakan, serta hasil
+              yang diperoleh.</p>
+            <div class="penugasan-tags">
+              <span class="tag small">Design</span>
+              <span class="tag small">Kominfo</span>
+            </div>
+            <a href="#" class="btn-outline small">Lihat Detail →</a>
+          </div>
+        </div>
+
+        <div class="penugasan-card">
+          <div class="penugasan-num">04</div>
+          <div class="penugasan-body">
+            <h3>Penugasan 4</h3>
+            <p class="penugasan-sub">Video</p>
+            <p>Deskripsi singkat mengenai penugasan ini. Jelaskan apa yang dikerjakan, tools yang digunakan, serta hasil
+              yang diperoleh.</p>
+            <div class="penugasan-tags">
+              <span class="tag small">Video Editing</span>
+              <span class="tag small">Public Speaking</span>
+            </div>
+            <a href="#" class="btn-outline small">Lihat Detail →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="title-divider"></div>
+        <p class="section-desc">Proyek dan karya pilihan, serta riwayat organisasi yang pernah diikuti.</p>
+      </div>
+
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Aplikasi sederhana</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="org">Organisasi</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="porto-card" data-cat="web">
+          <div class="porto-thumb c1"></div>
+          <div class="porto-info">
+            <h4>Kalkulator Emisi Harian</h4>
+            <p>C, C++</p>
+          </div>
+        </div>
+        <div class="porto-card wide" data-cat="design">
+          <div class="porto-thumb c2"></div>
+          <div class="porto-info">
+            <h4>Design Foto</h4>
+            <p>Alight Motion, PixelLab</p>
+          </div>
+        </div>
+        <div class="porto-card" data-cat="web">
+          <div class="porto-thumb c3"></div>
+          <div class="porto-info">
+            <h4>[Proyek Web 2]</h4>
+            <p>Vue.js, Tailwind CSS</p>
+          </div>
+        </div>
+        <div class="porto-card tall" data-cat="org">
+          <div class="porto-thumb c4"></div>
+          <div class="porto-info">
+            <h4>QIRA'AT MAN 2 KOTA BANDUNG</h4>
+            <p>Sekretaris — 2024-2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-btn">
+        <a href="#" class="btn-outline">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="contact-wrap">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cname">Your Name</label>
+              <input type="text" id="cname" name="name" placeholder="Nama kamu" required />
+            </div>
+            <div class="form-group">
+              <label for="cemail">Your E-Mail</label>
+              <input type="email" id="cemail" name="email" placeholder="email@kamu.com" required />
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="cmessage">Message</label>
+            <textarea id="cmessage" name="message" rows="5" placeholder="Tulis pesan kamu di sini..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+        <div class="contact-info">
+          <h4>Raza Mulki Firdaus</h4>
+          <p>E-mail: <a href="mailto:raza.mulki.tif425@polban.ac.id">raza.mulki.tif425@polban.ac.id</a></p>
+          <p>Universitas: Politeknik Negeri Bandung</p>
+          <div class="social-links">
+            <a href="#" class="soc-link">GitHub</a>
+            <a href="#" class="soc-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <span class="footer-logo">◆</span>
+      <nav class="footer-nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#penugasan">Penugasan</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2025 Raza Mulki Firdaus. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
